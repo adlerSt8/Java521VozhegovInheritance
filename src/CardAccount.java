@@ -3,6 +3,6 @@ public class CardAccount extends BankAccount{
 
     @Override
     public void take(double value){
-        super.take(value + (value * PERCENT));
+        super.take(value + value * PERCENT);
     }
 }

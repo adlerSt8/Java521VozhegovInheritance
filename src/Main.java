@@ -23,6 +23,11 @@ public class Main {
         System.out.println("Баланс CardAccount: " +cardAccount.getAmount());
 
         depositAccount.put(10000);
+        depositAccount.put(10000);
+        depositAccount.put(-100);
+        depositAccount.put(-100);
+        depositAccount.put(-100);
+        depositAccount.put(-100);
         depositAccount.take(5000);
         System.out.println("Баланс DepositAccount: " +depositAccount.getAmount());
     }
